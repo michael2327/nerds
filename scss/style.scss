@@ -9,6 +9,12 @@
   clear: both;
 }
 
+html,
+body{
+  margin: 0;
+  padding: 0;
+}
+
 header{
 
   .main-logo{
@@ -31,5 +37,40 @@ header{
   .slider2,
   .slider3{
     display: none;
+  }
+}
+
+main{
+
+  .advantages{
+    margin-right: 80px;
+    float: left;
+    display: block;
+    width: 300px;
+  }
+
+  .studio{
+    width: 650px;
+    float: left;
+  }
+
+  .statistic{
+    width: 360px;
+    float: right;
+
+    section{
+
+      b{
+        font-size: 45px;
+        span{
+          font-size: 22px;
+          vertical-align: super;
+        }
+      }
+    }
+  }
+
+  .partners{
+    text-align: center;
   }
 }

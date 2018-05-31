@@ -9,6 +9,12 @@
   clear: both;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header .main-logo {
   float: left;
 }
@@ -23,4 +29,29 @@ header nav .user-cart {
 .slider .slider2,
 .slider .slider3 {
   display: none;
+}
+
+main .advantages {
+  margin-right: 80px;
+  float: left;
+  display: block;
+  width: 300px;
+}
+main .studio {
+  width: 650px;
+  float: left;
+}
+main .statistic {
+  width: 360px;
+  float: right;
+}
+main .statistic section b {
+  font-size: 45px;
+}
+main .statistic section b span {
+  font-size: 22px;
+  vertical-align: super;
+}
+main .partners {
+  text-align: center;
 }
