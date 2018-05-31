@@ -1,0 +1,35 @@
+.container{
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.clearfix::before{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header{
+
+  .main-logo{
+    float: left;
+  }
+  nav{
+    li{
+      display: block;
+      float: left;
+    }
+    .user-cart{
+      float: right;
+    }
+  }
+}
+
+.slider{
+
+
+  .slider2,
+  .slider3{
+    display: none;
+  }
+}
