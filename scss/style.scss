@@ -1,3 +1,9 @@
+@font-face{
+  font-family: Roboto;
+  src:
+    url('/home/sunling/Документы/github/nerds/fonts/Roboto-Medium.ttf') format("truetype");
+}
+
 .container{
   width: 1160px;
   margin: 0 auto;
@@ -11,6 +17,7 @@
 
 html,
 body{
+  font-family: Roboto, serif;
   margin: 0;
   padding: 0;
 }
@@ -32,6 +39,13 @@ header{
 }
 
 .slider{
+  .left-slider{
+    float: left;
+    width: 376px;
+  }
+  .right-slider{
+    float: right;
+  }
 
 
   .slider2,
@@ -55,10 +69,13 @@ main{
   }
 
   .statistic{
-    width: 360px;
+    width: 400px;
     float: right;
 
     section{
+      display: inline-block;
+      width: 100px;
+      padding-right: 26px;
 
       b{
         font-size: 45px;
@@ -72,5 +89,27 @@ main{
 
   .partners{
     text-align: center;
+  }
+}
+
+footer{
+  .soc{
+    div{
+      float: left;
+      width: 79px;
+      height: 79px;
+      border-radius: 100%;
+      margin-left: 12px;
+    }
+    .vk{
+      background: #e1e1e1 url("/home/sunling/Документы/github/nerds/img/vk-icon.png") center no-repeat;
+    }
+    .fb{
+      background: #e1e1e1 url("/home/sunling/Документы/github/nerds/img/fb-icon.png") center no-repeat;
+    }
+    .inst{
+      background: #e1e1e1 url("/home/sunling/Документы/github/nerds/img/insta-icon.png") center no-repeat;
+
+    }
   }
 }

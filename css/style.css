@@ -1,3 +1,8 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Roboto;
+  src: url("/home/sunling/Документы/github/nerds/fonts/Roboto-Medium.ttf") format("truetype");
+}
 .container {
   width: 1160px;
   margin: 0 auto;
@@ -11,6 +16,7 @@
 
 html,
 body {
+  font-family: Roboto, serif;
   margin: 0;
   padding: 0;
 }
@@ -26,6 +32,13 @@ header nav .user-cart {
   float: right;
 }
 
+.slider .left-slider {
+  float: left;
+  width: 376px;
+}
+.slider .right-slider {
+  float: right;
+}
 .slider .slider2,
 .slider .slider3 {
   display: none;
@@ -42,8 +55,13 @@ main .studio {
   float: left;
 }
 main .statistic {
-  width: 360px;
+  width: 400px;
   float: right;
+}
+main .statistic section {
+  display: inline-block;
+  width: 100px;
+  padding-right: 26px;
 }
 main .statistic section b {
   font-size: 45px;
@@ -54,4 +72,21 @@ main .statistic section b span {
 }
 main .partners {
   text-align: center;
+}
+
+footer .soc div {
+  float: left;
+  width: 79px;
+  height: 79px;
+  border-radius: 100%;
+  margin-left: 12px;
+}
+footer .soc .vk {
+  background: #e1e1e1 url("/home/sunling/Документы/github/nerds/img/vk-icon.png") center no-repeat;
+}
+footer .soc .fb {
+  background: #e1e1e1 url("/home/sunling/Документы/github/nerds/img/fb-icon.png") center no-repeat;
+}
+footer .soc .inst {
+  background: #e1e1e1 url("/home/sunling/Документы/github/nerds/img/insta-icon.png") center no-repeat;
 }
