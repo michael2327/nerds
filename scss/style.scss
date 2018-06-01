@@ -15,22 +15,58 @@
   clear: both;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.btn{
+  font-family: Roboto, serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  width: 240px;
+  display: block;
+  background-color: #fb565a;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border: 0;
+  border-radius: 3px;
+}
+
+.btn-green{
+  background-color: #00ca74;
+}
+
+.btn-yellow{
+  background-color: #efc84a;
+}
+
 html,
 body{
   font-family: Roboto, serif;
   margin: 0;
   padding: 0;
+
 }
 
 header{
+  margin-bottom: 85px;
+  margin-top: 50px;
 
   .main-logo{
+    margin-right: 202px;
     float: left;
   }
   nav{
+
+
     li{
       display: block;
       float: left;
+      margin-right: 47px;
     }
     .user-cart{
       float: right;
@@ -39,6 +75,10 @@ header{
 }
 
 .slider{
+  h1{
+    font-size: 55px;
+    font-weight: 500;
+  }
   .left-slider{
     float: left;
     width: 376px;
@@ -61,6 +101,12 @@ main{
     float: left;
     display: block;
     width: 300px;
+
+    a{
+      width: 160px;
+    }
+
+
   }
 
   .studio{
@@ -76,6 +122,8 @@ main{
       display: inline-block;
       width: 100px;
       padding-right: 26px;
+
+
 
       b{
         font-size: 45px;
